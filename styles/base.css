@@ -45,9 +45,53 @@ nav a {
 }
 
 /* Style the hero section */
-/* Customize this section based on your design */
+.hero {
+   position: relative;
+   background-image: url('your-hero-image.jpg'); /* Replace 'your-hero-image.jpg' with your image file path */
+   background-size: cover;
+   background-position: center;
+   height: 400px; /* Adjust the height as needed */
+   color: #fff;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
 
-/* Style the main content sections */
+/* Style the text overlay */
+.hero-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+}
+
+.hero-text {
+   z-index: 1;
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+.hero-button {
+   z-index: 1;
+   background-color: #007BFF; /* Customize the button background color */
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+   background-color: #0056b3; /* Change the button background color on hover */
+}
+
 /* Customize the styles for individual sections as needed */
 
 /* Style the footer section */
