@@ -32,7 +32,17 @@
 
     </main>
 </body>
+<script>
+    alert('I’m JavaScript!'); alert('helloworld')
+</script>
+<script>
+    let div = document.createElement('div');
+    div.className = "alert";
+    div.innerHTML = "<strong>Hi there!</strong> You've read an important message.";
+    document.body.appendChild(div);
+    setTimeout(() =>div.remove(), 3000);
+</script>
 <footer>
-
+ @2023
 </footer>
 </html>
