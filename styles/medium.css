@@ -1,0 +1,8 @@
+@media only screen and (min-width: 35rem){
+   .cards {
+      display: block;
+      gap: 1rem;
+      margin: 0;
+    }
+  
+}

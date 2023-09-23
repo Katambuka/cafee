@@ -1,11 +1,8 @@
 /* Reset default margin and padding for all elements */
-* {
-   margin: 0;
-   padding: 0;
+*{ margin: 0;
    box-sizing: border-box;
-}
-
-/* Set a background color and font styles for the body */
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+/* Set a background color and font styles for the body 
 body {
    font-family: Arial, sans-serif;
    background-color: #f0f0f0;
@@ -93,6 +90,11 @@ nav a {
 }
 
 /* Customize the styles for individual sections as needed */
+main {
+   max-width: 100%;
+   margin: 0 auto;
+   padding: 20px;
+ }
 
 /* Style the footer section */
 footer {
@@ -112,10 +114,6 @@ footer p {
 
 /* Add media queries for responsive design if needed */
 
-#pricing {
-   display: flex;
-   margin: 0 auto;
-} 
 .card {
    width: 300px;
    height: 400px;
